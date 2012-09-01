@@ -1,9 +1,10 @@
-
 var narad = {};
+narad.url = 'http://192.168.0.46:3000'; // replace 192.168.0.46 with your host
+
 
 narad.lisentingChannels = {}
 
-var socket = io.connect('http://192.168.0.46:3000');
+var socket = io.connect(narad.url);
 
 function Channel(channelName) {
     this.channelName = channelName; //serviceObject is the object of 

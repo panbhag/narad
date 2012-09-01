@@ -7,12 +7,28 @@ It is a self hosted replacement of pusher
 
 
 
+Installation
+============
+
+Dependencies: 
+	*Node.js(http://nodejs.org/)
+	*socket.io(http://http://socket.io/)
+	*express js(http://expressjs.com/)
+
+After installing the above download the narad code, and cd into the narad folder.
+
+Open the file public/narad.js and replace your host in the 2nd line
+
+
+```javascript
+narad.url = 'http://192.168.0.46:3000'; // replace 192.168.0.46 with your host
+```
+
 
 Start the server 
 ================
 
 node server.js
-
 
 
 
@@ -69,7 +85,15 @@ forever stop server.js
 Pending Items
 =============
 
+publishing from client
+
+configuring the host url
+
 Adding npm
+
+do not pollute the global namespace
+
+add custom port
 
 Securtiy: Channel authentication
 
