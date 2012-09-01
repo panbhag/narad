@@ -1,4 +1,4 @@
-narad
+Narad.js
 =====
 
 A pusher like nodejs implementation built on top of socect.io
@@ -54,6 +54,8 @@ forever stop server.js
 
 
 Pending Items
+=============
+
 Adding npm
 Securtiy: Channel authentication
 Scalability
