@@ -1,9 +1,9 @@
 Narad.js
 =====
 
-A pusher like nodejs implementation built on top of socket.io(http://http://socket.io/), to build real time apps.
+A pusher like nodejs implementation built on top of socket.io(http://socket.io/), to build real time apps.
 
-It is a self hosted replacement of pusher
+It is a self hosted replacement of pusher.
 
 
 
@@ -11,9 +11,11 @@ Installation
 ============
 
 Dependencies: 
-	*Node.js(http://nodejs.org/)
-	*socket.io(http://http://socket.io/)
-	*express js(http://expressjs.com/)
+	Node.js(http://nodejs.org/)
+
+	socket.io(http://socket.io/)
+
+	express js(http://expressjs.com/)
 
 After installing the above download the narad code, and cd into the narad folder.
 
