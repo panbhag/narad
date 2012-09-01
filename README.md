@@ -1,12 +1,17 @@
 Narad.js
 =====
 
-A pusher like nodejs implementation built on top of socect.io
+A pusher like nodejs implementation built on top of socket.io(http://http://socket.io/)
 
-A server library to build real time apps.
+It is a self hosted replacement of pusher
+
+It is complete implementation to implement realtime apps. 
+
 
 
 Start the server 
+================
+
 node server.js
 
 
