@@ -5,6 +5,7 @@ A pusher like nodejs implementation built on top of socket.io(http://socket.io/)
 
 It is a self hosted replacement of pusher.
 
+It is in beta and not production ready yet.
 
 
 Installation
@@ -61,7 +62,10 @@ Subscribing to channels
 ```javascript
 var channelName = "event";
 var eventName = "chat_room"
-var channel = narad.subscribe(channelName);channel.bind(eventName, function (data) {        console.log("data: ", data);});
+var channel = narad.subscribe(channelName);
+channel.bind(eventName, function (data) {
+        console.log("data: ", data);
+});
 ```
 
 
